@@ -1,0 +1,15 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         Inline-FileSystem
+version:      0.00_01
+version_from: lib/Inline/FileSystem.pm
+installdirs:  site
+requires:
+    Class::Default:                1.0
+    File::Spec:                    0.82
+    IO::Scalar:                    2.105
+    MIME::Base64:                  3.00
+    Test::More:                    0.47
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.16
